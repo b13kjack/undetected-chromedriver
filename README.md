@@ -16,7 +16,7 @@ pip install undetected-chromedriver
 or , if you're feeling adventurous, install directly via github
 
 ```
-pip install git+https://www.github.com/ultrafunkamsterdam/undetected-chromedriver@master     # replace @master with @branchname for other branches
+pip install git+https://www.github.com/b13kjack/undetected-chromedriver@master     # replace @master with @branchname for other branches
 ```
 
 - - -
@@ -36,9 +36,6 @@ driver.save_screenshot('nowsecure.png')
 <img src="https://github.com/ultrafunkamsterdam/undetected-chromedriver/assets/21027969/262dad3e-33e9-4d67-b061-b30bc74ac9bc" width="720"/>
 <img src="https://github.com/ultrafunkamsterdam/undetected-chromedriver/assets/21027969/5e1d463b-3f88-496a-9a43-a39830f909da" width="720"/>
   </div>
-<!-- ![nowscure_local](https://github.com/ultrafunkamsterdam/undetected-chromedriver/assets/21027969/262dad3e-33e9-4d67-b061-b30bc74ac9bc) -->
-<!-- ![nowsecure_dc](https://github.com/ultrafunkamsterdam/undetected-chromedriver/assets/21027969/5e1d463b-3f88-496a-9a43-a39830f909da) -->
-
 
 
 ## 3.5.0 ##
@@ -73,7 +70,7 @@ driver.save_screenshot('nowsecure.png')
 * added an example containing some typical webdriver code, answers to commonly asked questions, pitfalls + showcasing some tricks to ditch
   the need for multithreading.
 
-### [>>>> example code here <<<<](https://github.com/ultrafunkamsterdam/undetected-chromedriver/blob/master/example/example.py)
+### [>>>> example code here <<<<](https://github.com/b13kjack/undetected-chromedriver/blob/master/example/example.py)
 
 * added WebElement.click_safe() method, which you can try in case you get detected after clicking a link. This is not guaranteed t o work.
 
